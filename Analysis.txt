@@ -1,0 +1,9 @@
+For PART A:
+end point at Europe-West1 returned average /register Latency: 424.03 ms and average list Latency: 444.51 ms. 
+end point at US-Central1 returned average /register Latency: 112.21 ms and average /list Latency: 120.59 ms. 
+Both are run with 10 iterations
+For Part B:
+After running iterations for 100, both endpoints are consistent with no disputes. 
+
+I think the latencies differ because I am closer to the datacenter of US physically. Thus, it takes shorter time to get responses as the data travel less intermediate nodes. 
+The no miss for part B indicates the update window for eventual consistency is less than query time. 
